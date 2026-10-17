@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* grid-auto-flow:dense ; */
+
+}
+#child1{
+ 
+    background-color: rgb(88, 36, 47);
+    border:2px solid rgb(228, 228, 234);
+}
+#child2{
+  
+    background-color: rgb(123, 89, 96);
+    border:2px solid rgb(228, 228, 234);
+}
+#child3{
+   
+    background-color: rgb(121, 68, 111);
+    border:2px solid rgb(228, 228, 234);
+}
+#child4{
+  
+    background-color: rgb(76, 108, 114);
+    border:2px solid rgb(228, 228, 234);
+}
